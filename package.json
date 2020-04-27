@@ -1,0 +1,14 @@
+{
+  "name": "prettier-plugin-declaration-order",
+  "version": "0.0.1",
+  "main": "plugin.js",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/traverse": "^7.9.5",
+    "@babel/types": "^7.9.5",
+    "toposort": "^2.0.2"
+  },
+  "peerDependencies": {
+    "prettier": "^2.0.5"
+  }
+}
